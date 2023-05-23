@@ -24,7 +24,7 @@ repositories {
 dependencies {
     implementation(kotlin("stdlib"))
 
-    implementation("com.nimmsta.core:shared-jvm:5.0.3450") {
+    implementation("com.nimmsta.core:shared-jvm:6.0.+") {
         isTransitive = true
         isChanging = true
     }
